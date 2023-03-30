@@ -1,0 +1,51 @@
+.botao {
+  background-color: blueviolet;
+  width: max-content;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  /*Propriedade -  Time _ Tipo de animação - Delay*/
+  transition: background-color 0.5s, cubic-bezier(0, 1, 1, 0), 0.5s;
+
+  /*
+  transition-property: background-color;
+  transition-duration: 2.5;
+  transition-timing-function: linear;
+  transition-delay: 2s;*/
+}
+
+.botao:hover {
+  /*background-color: brown;
+  padding: 32px 64px;
+  /*box-shadow: 4px 4px 16px rgb(58, 58, 58);*/
+  animation: rotacao 2s;
+}
+
+.transforma {
+  width: 150px;
+  height: 200px;
+  background-color: yellow;
+  transition-duration: 1.5s;
+  text-align: right;
+}
+
+.transforma:hover {
+  animation: rotacao 5s;
+  /*background-color: brown;
+  transform: rotate(360deg);
+  transition-timing-function: ease-in-out;
+  transform: scale(2, 1);
+  transform: skew(30deg, 45deg);*/
+}
+
+@keyframes rotacao {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    background-color: red;
+    transform: rotate(360deg);
+    width: 400px;
+  }
+}

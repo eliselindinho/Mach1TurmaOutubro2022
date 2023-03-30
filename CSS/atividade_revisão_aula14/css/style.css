@@ -1,0 +1,50 @@
+body {
+  display: flexbox;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+
+.cabecalho {
+  background-color: aqua;
+  height: 10%;
+  width: 100%;
+}
+
+.rodape {
+  background-color: chartreuse;
+  height: 10%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bloco_branco {
+  background-color: white;
+  height: 30%;
+}
+
+.col-8_blueviolet {
+  background-color: blueviolet;
+  font-size: 10%;
+  height: 50px;
+  width: 62.66%;
+}
+
+.col-4_brown {
+  background-color: brown;
+  font-size: 10%;
+  height: 50px;
+  width: 29.33%;
+}
+
+@media only screen and (min-width: 45em) {
+  .row {
+    width: 100vh;
+  }
+}

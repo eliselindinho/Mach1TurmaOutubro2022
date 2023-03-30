@@ -1,0 +1,60 @@
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 28px;
+}
+/*Não mexer acima*/
+
+/*article {
+  background-color: yellow;
+}
+
+p {
+  background-color: blue;
+}
+h1,
+h2,
+h3,
+small {
+  background-color: green;
+  border: solid black;
+}
+
+section article p {
+  color: black;
+}*/
+
+a:active {
+  background-color: red;
+}
+
+a:hover {
+  background-color: blueviolet;
+}
+
+a:visited {
+  color: red;
+}
+h1:hover {
+  background-color: blue;
+  cursor: wait;
+}
+
+input:focus {
+  border-color: crimson;
+  border-width: 2px;
+  border-style: solid;
+}
+li::marker {
+  color: chartreuse;
+}
+.autor::after {
+  content: "\231B";
+}
+[href*="pg"] {
+  background-color: aqua;
+}

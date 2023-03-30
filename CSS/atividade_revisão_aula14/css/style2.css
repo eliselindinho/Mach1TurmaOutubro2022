@@ -1,0 +1,39 @@
+.navbar {
+  background-color: aqua;
+  height: 50px;
+}
+
+.corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+section {
+  background-color: blueviolet;
+  justify-content: space-evenly;
+  align-content: space-around;
+  padding: 10px;
+  height: 90vh;
+}
+
+aside {
+  justify-content: space-evenly;
+  padding: 10px;
+  height: 90vh;
+  background-color: brown;
+  padding: 10px;
+}
+
+footer {
+  background-color: chartreuse;
+  height: 50px;
+}
+
+.card {
+  height: 30%;
+  background-color: white;
+}

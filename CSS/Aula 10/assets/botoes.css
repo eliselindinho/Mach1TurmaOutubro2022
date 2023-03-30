@@ -1,0 +1,23 @@
+.btn {
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding: 0 8px;
+}
+
+.btn_pequeno {
+  height: 24px;
+}
+
+.btn_primario {
+  background-color: blueviolet;
+  color: white;
+}
+.btn_perigo {
+  background-color: crimson;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

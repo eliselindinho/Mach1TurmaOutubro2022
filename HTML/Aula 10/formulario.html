@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>Cadastrar Usuário</h1>
+
+    <form
+      action="https://bemach1.com.br/html-aula-forms/cadastroRecruta.php"
+      method="post"
+      target="_blank"
+    >
+      <div>
+        <label
+          >Nome de usuário
+          <br />
+          <input
+            type="text"
+            placeholder="Seu nome"
+            id="nome"
+            name="NomeCompleto"
+            size="50"
+            value=""
+          />
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label
+          >E-mail
+          <br />
+          <input
+            type="email"
+            placeholder="E-mail"
+            id="email"
+            name="Email"
+            value=""
+          />
+        </label>
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <label
+          >Senha
+          <br />
+          <input
+            type="password"
+            placeholder="Sua Senha"
+            id="senha"
+            name="Senha"
+            value=""
+          />
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label
+          >Data
+          <br />
+          <input type="date" name="Data" value="" />
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label
+          >CPF
+          <br />
+          <input
+            type="text"
+            placeholder="CPF"
+            maxlength="14"
+            id="CPF"
+            name="CPF"
+            value=""
+          />
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label
+          >Idade
+          <br />
+          <input
+            type="number"
+            placeholder="Idade"
+            min="0"
+            max="125"
+            id="Idade"
+            name="Idade"
+            value=""
+          />
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label
+          >Anexos
+          <br />
+          <input type="file" multiple name="Anexo" />
+        </label>
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <label
+          >Cor preferida:
+          <input type="color" />
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <fieldset>
+          <legend>Quais são os seus pets</legend>
+          <input type="checkbox" value="gato" id="cat" name="gato" />
+          <labol for="cat">Gato</labol>
+          <br />
+          <input type="checkbox" value="cachorro" id="dog" name="cachorro" />
+          <labol for="dog">Cachorro</labol>
+          <br />
+          <input type="checkbox" value="cobra" id="snake" name="cobra" />
+          <labol for="snake">Cobra</labol>
+          <br />
+          <input type="checkbox" value="papagaio" id="parrot" name="papagaio" />
+          <labol for="parrot">Papagaio</labol>
+          <br />
+          <br />
+        </fieldset>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <fieldset>
+          <legend>Você é maior de idade?</legend>
+          <input name="maior" type="radio" value="sim" /> Sim
+          <br />
+          <input name="maior" type="radio" value="não" /> Não
+          <br />
+        </fieldset>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label> Informe os bens que possui:</label>
+        <select id="bens">
+          <option value="carro">Carro</option>
+          <br />
+          <br />
+          <option value="moto">Moto</option>
+          <br />
+          <br />
+          <option value="bicicleta">Bicicleta</option>
+          <br />
+          <br />
+        </select>
+      </div>
+
+      <br />
+      <br />
+
+      <label>Mensagem</label>
+      <br />
+      <textarea placeholder="Sua mensagem"> </textarea>
+      <br />
+      <br />
+
+      <input type="submit" value="Salvar Usuário" />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@import url(grid.css);
+
+.red {
+  background-color: red;
+  height: 64px;
+}
+
+.green {
+  background-color: green;
+  height: 64px;
+}
+
+.blue {
+  background-color: blue;
+  height: 64px;
+}

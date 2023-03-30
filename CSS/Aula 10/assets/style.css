@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+@import url("variaveis.css");
+
+@import url("botoes.css");
+
+@font-face {
+  font-family: "Elis";
+  src: url("Fontes/Roboto-MediumItalic.ttf") format("truetypes");
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+}
+
+.navegacao:hover {
+  background-color: blueviolet;
+}
+
+.navegacao {
+  background-color: bisque;
+  grid-column: span 2;
+  height: 64px;
+}
+
+.banner {
+  background-color: rgb(253, 226, 246);
+  grid-column: span 2;
+  height: calc(100vh - 64px);
+}
+
+.corpo {
+  height: 800px;
+}
+
+.sidebar {
+  background-color: darkolivegreen;
+  padding: 16px;
+}
+
+.rodape {
+  background-color: blueviolet;
+  grid-column: span 2;
+  height: 300px;
+}
+
+input {
+  height: 32px;
+  padding: 0 8px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: var(--border-color-input);
+  color: var(--text-color-input);
+}
+input::placeholder {
+  color: var(--placeholder-color-input);
+}
+input:focus-visible {
+  outline: 0;
+  border-color: var(--border-color-input-focus);
+}
+input:disabled {
+  border: none;
+  background-color: rgb(222, 222, 222);
+  cursor: not-allowed;
+}
+
+/*BEM (Bloco Elemento e Modificador*/
+/*Bloco*/
+.c_card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px;
+}
+/*Elemento*/
+.c_card_titulo {
+  font-size: 28px;
+  margin: 8px 0;
+}
+
+.c_card_texto {
+  margin: 8px 0;
+}
+
+.c_card__botao {
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding: 0 8px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.c_card__botao--disabled {
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding: 0 8px;
+  background-color: #aaaaaa;
+  color: gray;
+  cursor: not-allowed;
+}

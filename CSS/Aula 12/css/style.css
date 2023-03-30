@@ -1,0 +1,51 @@
+span {
+  background-color: yellow;
+}
+
+/*Comportamento inline e comportamento em bloco*/
+/*.txt_grande,
+h2 {
+  display: inline;
+}*/
+
+body {
+  column-count: 3;
+  /*column-width: 300px;*/
+  column-gap: 32px;
+  column-rule: 4px dotted rgb(248, 33, 158);
+}
+
+.txt_principal,
+.txt_p1 {
+  column-span: all;
+}
+
+.cabecalho {
+  display: none;
+}
+
+/*@media screen and (min-width: 800px) {
+  body {
+    column-count: 2;
+  }
+  span {
+    background-color: red;
+  }
+}*/
+
+/*Media print é destinado a impressão*/
+@media print {
+  .cabecalho {
+    background-color: aqua;
+    display: block;
+    column-span: all;
+  }
+  .txt_principal,
+  .txt_p1 {
+    column-span: all;
+  }
+  body {
+    column-count: 2;
+    margin: 0;
+  }
+}

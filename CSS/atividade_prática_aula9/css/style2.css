@@ -1,0 +1,28 @@
+.tabela {
+  display: table;
+  border: 1px solid;
+  border-color: black;
+  width: 40%;
+  height: 10px;
+  text-align: center;
+}
+
+.row {
+  display: table-row;
+  border: 1px solid;
+  border-color: black;
+}
+
+.row > div {
+  display: table-cell;
+  border: 1px solid;
+  border-color: black;
+}
+
+.row:nth-child(3) {
+  background-color: #ffffff;
+}
+
+.row:first-child {
+  background-color: blue;
+}

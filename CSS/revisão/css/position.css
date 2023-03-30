@@ -1,0 +1,24 @@
+.pai {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  position: relative;
+}
+
+.filha {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  position: absolute;
+  right: 32px;
+  bottom: 0;
+}
+
+.neta {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+  position: absolute;
+  right: 32px;
+  bottom: 12px;
+}

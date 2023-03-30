@@ -1,0 +1,43 @@
+html,
+body {
+  font-size: 16px;
+}
+
+.back {
+  background-color: aquamarine;
+  width: 50%;
+  height: 50%;
+}
+.interno {
+  background-color: brown;
+  width: 50%;
+  height: 50%;
+}
+
+.grid_f,
+.grid_r {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 16px;
+}
+.grid_f div,
+.grid_r div {
+  background-color: aquamarine;
+}
+
+.grid_f {
+  gap: 16px;
+}
+
+.grid_r {
+  gap: 4%;
+}
+
+.texto_e {
+  font-size: 16px;
+  /*margin: 1em; */
+}
+.texto_i p {
+  font-size: 1ren;
+  /* margin: 1em;*/
+}
